@@ -83,7 +83,7 @@
 
     <div class="container">
       {$maincontent}
-      </div><!--/row-->
+    
 
       <hr>
 
