@@ -72,21 +72,18 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+   <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3">
           <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>          
-            </ul>
+            {blockposition name=left}
+			
           </div><!--/.well -->
         </div><!--/span-->
         <div class="span9">
-          
+		
+		{blockposition name=center}
+       
           <div class="row-fluid">
              {$maincontent}
         </div><!--/span-->
@@ -99,7 +96,7 @@
       </footer>
 
     </div><!--/.fluid-container-->
-	</div>
+</div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
