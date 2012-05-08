@@ -9,3 +9,9 @@
 }
 
 .well{margin-top:12px;}
+
+@media (max-width: 480px) {
+.z-adminlinkheader {display:none;}
+.z-adminmodtitle {display:none;}
+.z-menutexttitle {display:none;}
+}
