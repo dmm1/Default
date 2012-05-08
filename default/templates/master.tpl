@@ -13,6 +13,7 @@
 
     <!-- Le styles -->
     <link href="themes/default/assets/css/bootstrap.css" rel="stylesheet">
+	<link href="themes/default/assets/css/overrides.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -71,6 +72,7 @@
         </div>
       </div>
     </div>
+<div id="wrap">
 
    <div class="container-fluid">
       <div class="row-fluid">
@@ -91,12 +93,12 @@
 
       <hr>
 
-      <footer>
-        <p>&copy; {$modvars.ZConfig.sitename}</p>
-      </footer>
-
+    
     </div><!--/.fluid-container-->
 </div>
+	<footer class="well">
+		<p>&copy; {$modvars.ZConfig.sitename}</p>
+	</footer>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -97,9 +97,9 @@
 
       <hr>
 
-      <footer>
-        <p>&copy; {$modvars.ZConfig.sitename}</p>
-      </footer>
+	<footer class="well">
+		<p>&copy; {$modvars.ZConfig.sitename}</p>
+	</footer>
 
     </div><!--/.fluid-container-->
 </div>

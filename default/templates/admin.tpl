@@ -84,15 +84,12 @@
     <div class="container">
       {$maincontent}
     
+	<footer class="well">
+		<p>&copy; {$modvars.ZConfig.sitename}</p>
+	</footer>
 
-      <hr>
-
-      <footer>
-        <p>&copy; {$modvars.ZConfig.sitename}</p>
-      </footer>
-
-    </div><!--/.fluid-container-->
-
+   <!--/.fluid-container-->
+</div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
