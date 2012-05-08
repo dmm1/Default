@@ -83,7 +83,7 @@
 
     <div class="container">
       {$maincontent}
-      
+      </div><!--/row-->
 
       <hr>
 
@@ -96,7 +96,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="themes/default/assets/js/jquery.js"></script>
+	{pageaddvar name='javascript' value='jquery'}
     <script src="themes/default/assets/js/bootstrap-transition.js"></script>
     <script src="themes/default/assets/js/bootstrap-alert.js"></script>
     <script src="themes/default/assets/js/bootstrap-modal.js"></script>
