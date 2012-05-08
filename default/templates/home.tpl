@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 		<!-- Le styles -->
-		<link href="themes/default/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="themes/default/assets/css/core/bootstrap.css" rel="stylesheet">
 		<link href="themes/default/assets/css/overrides.css" rel="stylesheet">
 		<style type="text/css">
 			body {
@@ -21,7 +21,7 @@
 						padding: 9px 0;
 				}
 		</style>
-		<link href="themes/default/assets/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="themes/default/assets/css/core/bootstrap-responsive.css" rel="stylesheet">
 		{browserhack condition="if lt IE 9" assign="ieconditional"}
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		{/browserhack}
@@ -95,30 +95,30 @@
         </div><!--/span-->
       </div><!--/row-->
 
-      <hr>
+         </div><!--/.fluid-container-->
+</div>
 
 	<footer class="well">
 		<p>&copy; {$modvars.ZConfig.sitename}</p>
 	</footer>
 
-    </div><!--/.fluid-container-->
-</div>
+
     <!-- scripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     {pageaddvar name='javascript' value='jquery'}
-    <script src="themes/default/assets/js/bootstrap-transition.js"></script>
-    <script src="themes/default/assets/js/bootstrap-alert.js"></script>
-    <script src="themes/default/assets/js/bootstrap-modal.js"></script>
-    <script src="themes/default/assets/js/bootstrap-dropdown.js"></script>
-    <script src="themes/default/assets/js/bootstrap-scrollspy.js"></script>
-    <script src="themes/default/assets/js/bootstrap-tab.js"></script>
-    <script src="themes/default/assets/js/bootstrap-tooltip.js"></script>
-    <script src="themes/default/assets/js/bootstrap-popover.js"></script>
-    <script src="themes/default/assets/js/bootstrap-button.js"></script>
-    <script src="themes/default/assets/js/bootstrap-collapse.js"></script>
-    <script src="themes/default/assets/js/bootstrap-carousel.js"></script>
-    <script src="themes/default/assets/js/bootstrap-typeahead.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-transition.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-alert.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-modal.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-dropdown.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-scrollspy.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-tab.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-tooltip.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-popover.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-button.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-collapse.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-carousel.js"></script>
+    <script src="themes/default/assets/js/core/bootstrap-typeahead.js"></script>
 	
   </body>
 </html>
