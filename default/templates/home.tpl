@@ -7,27 +7,24 @@
         <meta name="description" content="{$metatags.description}" />
         <meta name="keywords" content="{$metatags.keywords}" />
         <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-
-    <!-- Le styles -->
-    <link href="themes/default/assets/css/bootstrap.css" rel="stylesheet">
-	<link href="themes/default/assets/css/overrides.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-    </style>
-    <link href="themes/default/assets/css/bootstrap-responsive.css" rel="stylesheet">
-
-    {browserhack condition="if lt IE 9" assign="ieconditional"}
-     
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    {/browserhack}
+		<!-- Le styles -->
+		<link href="themes/default/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="themes/default/assets/css/overrides.css" rel="stylesheet">
+		<style type="text/css">
+			body {
+				padding-top: 60px;
+				padding-bottom: 40px;
+				}
+		   .sidebar-nav {
+						padding: 9px 0;
+				}
+		</style>
+		<link href="themes/default/assets/css/bootstrap-responsive.css" rel="stylesheet">
+		{browserhack condition="if lt IE 9" assign="ieconditional"}
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		{/browserhack}
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="themes/default/assets/ico/favicon.ico">
@@ -105,8 +102,8 @@
       </footer>
 
     </div><!--/.fluid-container-->
-
-    <!-- Le javascript
+</div>
+    <!-- scripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="themes/default/assets/js/jquery.js"></script>
@@ -122,6 +119,6 @@
     <script src="themes/default/assets/js/bootstrap-collapse.js"></script>
     <script src="themes/default/assets/js/bootstrap-carousel.js"></script>
     <script src="themes/default/assets/js/bootstrap-typeahead.js"></script>
-
+	
   </body>
 </html>
