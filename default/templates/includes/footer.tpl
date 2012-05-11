@@ -7,6 +7,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     {pageaddvar name='javascript' value='jquery'}
+	<script src="themes/default/assets/js/theme.js"></script>
+	<script src="themes/default/assets/js/top.js"></script>
     <script src="themes/default/assets/js/core/bootstrap-transition.js"></script>
     <script src="themes/default/assets/js/core/bootstrap-alert.js"></script>
     <script src="themes/default/assets/js/core/bootstrap-modal.js"></script>
