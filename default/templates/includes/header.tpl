@@ -1,4 +1,4 @@
-
+﻿
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset={charset}" />
         <title>{pagegetvar name='title'}</title>
@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="chrome=1" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-		<!-- Le styles -->
+		<!-- Style -->
 		<link href="themes/default/assets/css/core/bootstrap.css" rel="stylesheet">
 		<link href="themes/default/assets/css/overrides.css" rel="stylesheet">
 		<style type="text/css">
@@ -24,7 +24,7 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		{/browserhack}
 
-    <!-- Le fav and touch icons -->
+    <!-- Icons -->
     <link rel="shortcut icon" href="themes/default/assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="themes/default/assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="themes/default/assets/ico/apple-touch-icon-114-precomposed.png">
