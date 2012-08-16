@@ -1,8 +1,10 @@
 /* Overrides to bootstrap core */
+h1 {fot-size:24px;}
 
 .hero-unit h1{
   margin-bottom: 12px;
-  font-size: 30px;
+  margin-top:-12px;
+  font-size: 26px;
   line-height: 1;
   color: inherit;
   letter-spacing: -1px;
