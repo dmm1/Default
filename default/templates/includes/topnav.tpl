@@ -18,12 +18,13 @@
 				 {checkpermissionblock component='.*' instance='.*' level=ACCESS_ADMIN}
 				 <li><a href="{modurl modname='Admin' type='admin' func='adminpanel'}">{gt text='Administration'}</a></li>
 				 {/checkpermissionblock}
-				 <li><a href="/profile">Profile</a></li>
+				 <li><a href="{modurl modname='Users' type='user' func='main'}" title="{gt text='Go to your account panel'}">{gt text="My Account"}</a></li>			   
+				 <li><a href="{modurl modname='Profile' type='user' func='view'}">{gt text="Profile"}</a></li>				
 				 <li class="divider"></li>
-				 <li><a href="#" >Sign Out</a></li>
+				 <li><a href="{modurl modname='Users' type='user' func='signout'}" >{gt text="Sign out"}</a></li>
 				 </ul>
                 {else}
-                <a href="{modurl modname='Users' type='user' func='login'}">Login/Register</a>
+                <a href="{modurl modname='Users' type='user' func='login'}">{gt text="Login/Register"}</a>
                 {/if}
            
           </div>
