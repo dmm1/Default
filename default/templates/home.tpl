@@ -11,6 +11,7 @@
 					<div class="span3">
 						<div class="well sidebar-nav">
 							{blockposition name=left}
+							{blockposition name=right}
 			
 						</div><!--/.well -->
 					</div><!--/span3-->
