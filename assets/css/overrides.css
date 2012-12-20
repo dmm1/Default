@@ -16,5 +16,13 @@ h1 {fot-size:24px;}
 .z-adminlinkheader {display:none;}
 .z-adminmodtitle {display:none;}
 .z-menutexttitle {display:none;}
+textarea,
+input[type="text"] {
+	width: 100%;
+	height:100%;
+	max-width: 260px;
+	max-height: 90px;
+	box-sizing: border-box;
+}
 }
 #nav li a.active{color:#ff3399; background:#f6f6f6}
