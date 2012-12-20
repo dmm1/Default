@@ -17,3 +17,4 @@ h1 {fot-size:24px;}
 .z-adminmodtitle {display:none;}
 .z-menutexttitle {display:none;}
 }
+#nav li a.active{color:#ff3399; background:#f6f6f6}

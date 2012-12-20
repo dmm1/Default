@@ -14,3 +14,12 @@ jQuery('a[href*=#]').click(function() {
     }
 });
 /* scroll to top end */
+/* auto format url design */
+jQuery(function() {
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     jQuery("#nav li a").each(function(){
+          if(jQuery(this).attr("href") == pgurl)
+          jQuery(this).addClass("active");
+     })
+});
