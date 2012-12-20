@@ -12,8 +12,8 @@
  * information regarding    copyright and licensing.
  */
 
-$themeversion['name'] = 'default';
-$themeversion['displayname'] = __('default');
+$themeversion['name'] = 'Default';
+$themeversion['displayname'] = __('Default');
 $themeversion['description'] = __("Zikula Theme based on Bootstrap by dmm");
 $themeversion['version'] = '1.0';
 $themeversion['admin'] = 1;
