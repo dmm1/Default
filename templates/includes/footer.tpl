@@ -2,23 +2,8 @@
 		<p>&copy; {$modvars.ZConfig.sitename}</p>
 </footer>
 
-
-    <!-- scripts
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    {* Placed at the end of the document so the pages load faster *}
     {pageaddvar name='javascript' value='jquery'}
 	<script src="themes/Default/assets/js/theme.js"></script>
 	<script src="themes/Default/assets/js/top.js"></script>
-    <script src="themes/Default/assets/js/core/bootstrap.min.js"></script>
-    <!-- <script src="themes/Default/assets/js/core/bootstrap-alert.js"></script>
-    <script src="themes/Default/assets/js/core/bootstrap-modal.js"></script> -->
-    <!-- <script src="themes/Default/assets/js/core/bootstrap-dropdown.js"></script>
-    <script src="themes/Default/assets/js/core/bootstrap-scrollspy.js"></script>
-     --><!-- <script src="themes/Default/assets/js/core/bootstrap-tab.js"></script>
-    <script src="themes/Default/assets/js/core/bootstrap-tooltip.js"></script> -->
-    <!-- <script src="themes/Default/assets/js/core/bootstrap-popover.js"></script>
-    <script src="themes/Default/assets/js/core/bootstrap-button.js"></script>
-    <script src="themes/Default/assets/js/core/bootstrap-collapse.js"></script>
-     --><!-- <script src="themes/Default/assets/js/core/bootstrap-carousel.js"></script> -->
-    <!-- <script src="themes/Default/assets/js/core/bootstrap-typeahead.js"></script>
-	 -->
+    <script src="themes/Default/assets/js/core/bootstrap.min.js"></script>	
