@@ -15,7 +15,6 @@
 						</div><!--/.well -->
 					</div><!--/span3-->
 					<div class="span9">
-					{blockposition name=center}
 					<div class="row-fluid">
 					{$maincontent}
 					</div><!--/row-fluid-->
